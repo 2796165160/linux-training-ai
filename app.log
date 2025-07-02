@@ -19424,3 +19424,479 @@ WHERE templates.user_id = %(user_id_1)s
  LIMIT %(param_1)s OFFSET %(param_2)s
 2025-07-02 18:30:43,760 - sqlalchemy.engine.Engine - INFO - [cached since 2086s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
 2025-07-02 18:30:43,762 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:04,048 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:04,048 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:04,048 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:04,050 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:04,061 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:04,061 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:04,061 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:04,062 - sqlalchemy.engine.Engine - INFO - SELECT tasks.id AS tasks_id, tasks.title AS tasks_title, tasks.description AS tasks_description, tasks.user_id AS tasks_user_id, tasks.created_at AS tasks_created_at, tasks.updated_at AS tasks_updated_at 
+FROM tasks 
+WHERE tasks.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:36:04,062 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:36:04,063 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:04,071 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:04,072 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:04,072 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:04,073 - sqlalchemy.engine.Engine - INFO - SELECT templates.id AS templates_id, templates.name AS templates_name, templates.content AS templates_content, templates.user_id AS templates_user_id, templates.created_at AS templates_created_at, templates.updated_at AS templates_updated_at, templates.file_path AS templates_file_path, templates.original_filename AS templates_original_filename, templates.is_docx AS templates_is_docx 
+FROM templates 
+WHERE templates.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:36:04,073 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:36:04,075 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:05,352 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:05,352 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:05,352 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:05,354 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:05,362 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:05,362 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:05,362 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:05,363 - sqlalchemy.engine.Engine - INFO - SELECT reports.id AS reports_id, reports.title AS reports_title, reports.content AS reports_content, reports.task_id AS reports_task_id, reports.user_id AS reports_user_id, reports.template_id AS reports_template_id, reports.created_at AS reports_created_at, reports.updated_at AS reports_updated_at 
+FROM reports 
+WHERE reports.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:36:05,363 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:36:05,365 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:06,197 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:06,197 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:06,197 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:06,199 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:06,212 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:06,212 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:06,212 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:06,213 - sqlalchemy.engine.Engine - INFO - SELECT templates.id AS templates_id, templates.name AS templates_name, templates.content AS templates_content, templates.user_id AS templates_user_id, templates.created_at AS templates_created_at, templates.updated_at AS templates_updated_at, templates.file_path AS templates_file_path, templates.original_filename AS templates_original_filename, templates.is_docx AS templates_is_docx 
+FROM templates 
+WHERE templates.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:36:06,214 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:36:06,215 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:09,520 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:09,520 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:09,520 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:09,522 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:09,529 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:09,530 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:09,530 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:09,531 - sqlalchemy.engine.Engine - INFO - SELECT reports.id AS reports_id, reports.title AS reports_title, reports.content AS reports_content, reports.task_id AS reports_task_id, reports.user_id AS reports_user_id, reports.template_id AS reports_template_id, reports.created_at AS reports_created_at, reports.updated_at AS reports_updated_at 
+FROM reports 
+WHERE reports.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:36:09,531 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:36:09,533 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:10,232 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:10,232 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:10,232 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:10,234 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:10,244 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:10,244 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:10,244 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:10,245 - sqlalchemy.engine.Engine - INFO - SELECT tasks.id AS tasks_id, tasks.title AS tasks_title, tasks.description AS tasks_description, tasks.user_id AS tasks_user_id, tasks.created_at AS tasks_created_at, tasks.updated_at AS tasks_updated_at 
+FROM tasks 
+WHERE tasks.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:36:10,245 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:36:10,246 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:10,254 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:10,254 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:10,254 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:10,255 - sqlalchemy.engine.Engine - INFO - SELECT templates.id AS templates_id, templates.name AS templates_name, templates.content AS templates_content, templates.user_id AS templates_user_id, templates.created_at AS templates_created_at, templates.updated_at AS templates_updated_at, templates.file_path AS templates_file_path, templates.original_filename AS templates_original_filename, templates.is_docx AS templates_is_docx 
+FROM templates 
+WHERE templates.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:36:10,255 - sqlalchemy.engine.Engine - INFO - [cached since 1.321e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:36:10,256 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:30,008 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:30,008 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:30,009 - sqlalchemy.engine.Engine - INFO - [cached since 1.323e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:30,010 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:36:30,018 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:36:30,018 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:36:30,018 - sqlalchemy.engine.Engine - INFO - [cached since 1.323e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:36:30,019 - sqlalchemy.engine.Engine - INFO - SELECT reports.id AS reports_id, reports.title AS reports_title, reports.content AS reports_content, reports.task_id AS reports_task_id, reports.user_id AS reports_user_id, reports.template_id AS reports_template_id, reports.created_at AS reports_created_at, reports.updated_at AS reports_updated_at 
+FROM reports 
+WHERE reports.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:36:30,019 - sqlalchemy.engine.Engine - INFO - [cached since 1.323e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:36:30,021 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:37:50,754 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:37:50,754 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:37:50,754 - sqlalchemy.engine.Engine - INFO - [cached since 1.331e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:37:50,756 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:37:50,769 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:37:50,769 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:37:50,769 - sqlalchemy.engine.Engine - INFO - [cached since 1.331e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:37:50,770 - sqlalchemy.engine.Engine - INFO - SELECT templates.id AS templates_id, templates.name AS templates_name, templates.content AS templates_content, templates.user_id AS templates_user_id, templates.created_at AS templates_created_at, templates.updated_at AS templates_updated_at, templates.file_path AS templates_file_path, templates.original_filename AS templates_original_filename, templates.is_docx AS templates_is_docx 
+FROM templates 
+WHERE templates.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:37:50,771 - sqlalchemy.engine.Engine - INFO - [cached since 1.331e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:37:50,772 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:37:52,448 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:37:52,448 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:37:52,448 - sqlalchemy.engine.Engine - INFO - [cached since 1.331e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:37:52,450 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:37:52,457 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:37:52,458 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:37:52,458 - sqlalchemy.engine.Engine - INFO - [cached since 1.331e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:37:52,459 - sqlalchemy.engine.Engine - INFO - SELECT reports.id AS reports_id, reports.title AS reports_title, reports.content AS reports_content, reports.task_id AS reports_task_id, reports.user_id AS reports_user_id, reports.template_id AS reports_template_id, reports.created_at AS reports_created_at, reports.updated_at AS reports_updated_at 
+FROM reports 
+WHERE reports.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:37:52,459 - sqlalchemy.engine.Engine - INFO - [cached since 1.331e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:37:52,461 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:37:52,961 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:37:52,962 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:37:52,962 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:37:52,963 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:37:52,974 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:37:52,974 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:37:52,974 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:37:52,975 - sqlalchemy.engine.Engine - INFO - SELECT tasks.id AS tasks_id, tasks.title AS tasks_title, tasks.description AS tasks_description, tasks.user_id AS tasks_user_id, tasks.created_at AS tasks_created_at, tasks.updated_at AS tasks_updated_at 
+FROM tasks 
+WHERE tasks.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:37:52,975 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:37:52,976 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:37:52,984 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:37:52,984 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:37:52,984 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:37:52,985 - sqlalchemy.engine.Engine - INFO - SELECT templates.id AS templates_id, templates.name AS templates_name, templates.content AS templates_content, templates.user_id AS templates_user_id, templates.created_at AS templates_created_at, templates.updated_at AS templates_updated_at, templates.file_path AS templates_file_path, templates.original_filename AS templates_original_filename, templates.is_docx AS templates_is_docx 
+FROM templates 
+WHERE templates.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:37:52,985 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:37:52,987 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:37:55,309 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:37:55,309 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:37:55,310 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:37:55,311 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:37:55,323 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:37:55,323 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:37:55,323 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:37:55,324 - sqlalchemy.engine.Engine - INFO - SELECT tasks.id AS tasks_id, tasks.title AS tasks_title, tasks.description AS tasks_description, tasks.user_id AS tasks_user_id, tasks.created_at AS tasks_created_at, tasks.updated_at AS tasks_updated_at 
+FROM tasks 
+WHERE tasks.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:37:55,324 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:37:55,326 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:37:55,333 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:37:55,333 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:37:55,334 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:37:55,334 - sqlalchemy.engine.Engine - INFO - SELECT templates.id AS templates_id, templates.name AS templates_name, templates.content AS templates_content, templates.user_id AS templates_user_id, templates.created_at AS templates_created_at, templates.updated_at AS templates_updated_at, templates.file_path AS templates_file_path, templates.original_filename AS templates_original_filename, templates.is_docx AS templates_is_docx 
+FROM templates 
+WHERE templates.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:37:55,335 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:37:55,336 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:00,290 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:00,290 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:00,290 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:00,292 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:00,304 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:00,305 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:00,305 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:00,306 - sqlalchemy.engine.Engine - INFO - SELECT templates.id AS templates_id, templates.name AS templates_name, templates.content AS templates_content, templates.user_id AS templates_user_id, templates.created_at AS templates_created_at, templates.updated_at AS templates_updated_at, templates.file_path AS templates_file_path, templates.original_filename AS templates_original_filename, templates.is_docx AS templates_is_docx 
+FROM templates 
+WHERE templates.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:00,306 - sqlalchemy.engine.Engine - INFO - [cached since 1.332e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:00,307 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:03,450 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:03,450 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:03,450 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:03,452 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:03,459 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:03,460 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:03,460 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:03,461 - sqlalchemy.engine.Engine - INFO - SELECT reports.id AS reports_id, reports.title AS reports_title, reports.content AS reports_content, reports.task_id AS reports_task_id, reports.user_id AS reports_user_id, reports.template_id AS reports_template_id, reports.created_at AS reports_created_at, reports.updated_at AS reports_updated_at 
+FROM reports 
+WHERE reports.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:03,461 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:03,463 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:05,040 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:05,040 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:05,041 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:05,042 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:05,052 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:05,052 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:05,052 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:05,053 - sqlalchemy.engine.Engine - INFO - SELECT tasks.id AS tasks_id, tasks.title AS tasks_title, tasks.description AS tasks_description, tasks.user_id AS tasks_user_id, tasks.created_at AS tasks_created_at, tasks.updated_at AS tasks_updated_at 
+FROM tasks 
+WHERE tasks.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:05,053 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:05,055 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:05,062 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:05,063 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:05,063 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:05,064 - sqlalchemy.engine.Engine - INFO - SELECT templates.id AS templates_id, templates.name AS templates_name, templates.content AS templates_content, templates.user_id AS templates_user_id, templates.created_at AS templates_created_at, templates.updated_at AS templates_updated_at, templates.file_path AS templates_file_path, templates.original_filename AS templates_original_filename, templates.is_docx AS templates_is_docx 
+FROM templates 
+WHERE templates.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:05,064 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:05,065 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:06,164 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:06,164 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:06,164 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:06,166 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:06,178 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:06,178 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:06,178 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:06,179 - sqlalchemy.engine.Engine - INFO - SELECT tasks.id AS tasks_id, tasks.title AS tasks_title, tasks.description AS tasks_description, tasks.user_id AS tasks_user_id, tasks.created_at AS tasks_created_at, tasks.updated_at AS tasks_updated_at 
+FROM tasks 
+WHERE tasks.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:06,179 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:06,180 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:06,183 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:06,184 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:06,184 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:06,185 - sqlalchemy.engine.Engine - INFO - SELECT reports.id AS reports_id, reports.title AS reports_title, reports.content AS reports_content, reports.task_id AS reports_task_id, reports.user_id AS reports_user_id, reports.template_id AS reports_template_id, reports.created_at AS reports_created_at, reports.updated_at AS reports_updated_at 
+FROM reports 
+WHERE reports.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:06,185 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:06,187 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:06,190 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:06,190 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:06,191 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:06,191 - sqlalchemy.engine.Engine - INFO - SELECT templates.id AS templates_id, templates.name AS templates_name, templates.content AS templates_content, templates.user_id AS templates_user_id, templates.created_at AS templates_created_at, templates.updated_at AS templates_updated_at, templates.file_path AS templates_file_path, templates.original_filename AS templates_original_filename, templates.is_docx AS templates_is_docx 
+FROM templates 
+WHERE templates.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:06,192 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:06,193 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:10,481 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:10,481 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:10,481 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:10,483 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:10,491 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:10,491 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:10,492 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:10,493 - sqlalchemy.engine.Engine - INFO - SELECT reports.id AS reports_id, reports.title AS reports_title, reports.content AS reports_content, reports.task_id AS reports_task_id, reports.user_id AS reports_user_id, reports.template_id AS reports_template_id, reports.created_at AS reports_created_at, reports.updated_at AS reports_updated_at 
+FROM reports 
+WHERE reports.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:10,493 - sqlalchemy.engine.Engine - INFO - [cached since 1.333e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:10,495 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:18,277 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:18,277 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:18,277 - sqlalchemy.engine.Engine - INFO - [cached since 1.334e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:18,279 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:18,290 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:18,291 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:18,291 - sqlalchemy.engine.Engine - INFO - [cached since 1.334e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:18,292 - sqlalchemy.engine.Engine - INFO - SELECT tasks.id AS tasks_id, tasks.title AS tasks_title, tasks.description AS tasks_description, tasks.user_id AS tasks_user_id, tasks.created_at AS tasks_created_at, tasks.updated_at AS tasks_updated_at 
+FROM tasks 
+WHERE tasks.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:18,292 - sqlalchemy.engine.Engine - INFO - [cached since 1.334e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:18,293 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:18,296 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:18,297 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:18,297 - sqlalchemy.engine.Engine - INFO - [cached since 1.334e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:18,298 - sqlalchemy.engine.Engine - INFO - SELECT reports.id AS reports_id, reports.title AS reports_title, reports.content AS reports_content, reports.task_id AS reports_task_id, reports.user_id AS reports_user_id, reports.template_id AS reports_template_id, reports.created_at AS reports_created_at, reports.updated_at AS reports_updated_at 
+FROM reports 
+WHERE reports.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:18,298 - sqlalchemy.engine.Engine - INFO - [cached since 1.334e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:18,300 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:18,303 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:18,304 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:18,304 - sqlalchemy.engine.Engine - INFO - [cached since 1.334e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:18,304 - sqlalchemy.engine.Engine - INFO - SELECT templates.id AS templates_id, templates.name AS templates_name, templates.content AS templates_content, templates.user_id AS templates_user_id, templates.created_at AS templates_created_at, templates.updated_at AS templates_updated_at, templates.file_path AS templates_file_path, templates.original_filename AS templates_original_filename, templates.is_docx AS templates_is_docx 
+FROM templates 
+WHERE templates.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:18,305 - sqlalchemy.engine.Engine - INFO - [cached since 1.334e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:18,306 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:19,514 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:19,514 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:19,514 - sqlalchemy.engine.Engine - INFO - [cached since 1.334e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:19,516 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:19,529 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:19,529 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:19,529 - sqlalchemy.engine.Engine - INFO - [cached since 1.334e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:19,530 - sqlalchemy.engine.Engine - INFO - SELECT templates.id AS templates_id, templates.name AS templates_name, templates.content AS templates_content, templates.user_id AS templates_user_id, templates.created_at AS templates_created_at, templates.updated_at AS templates_updated_at, templates.file_path AS templates_file_path, templates.original_filename AS templates_original_filename, templates.is_docx AS templates_is_docx 
+FROM templates 
+WHERE templates.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:19,530 - sqlalchemy.engine.Engine - INFO - [cached since 1.334e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:19,531 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:41,909 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:41,910 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:41,910 - sqlalchemy.engine.Engine - INFO - [cached since 1.336e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:41,911 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:41,922 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:41,922 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:41,922 - sqlalchemy.engine.Engine - INFO - [cached since 1.336e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:41,923 - backend.app.routers.templates - INFO - 接收到模板上传请求: 文件名=lzsh_template.docx, 模板名=lzsh, 用户ID=5
+2025-07-02 21:38:41,923 - backend.app.routers.templates - INFO - 保存文件到路径: /home/ai_report_system/templates/docx/5050a1c4ac174d8699d1e963ad8ec965_20250702213841.docx
+2025-07-02 21:38:41,923 - backend.app.routers.templates - INFO - 文件保存成功, 大小: 42393 字节
+2025-07-02 21:38:41,924 - sqlalchemy.engine.Engine - INFO - INSERT INTO templates (name, content, user_id, created_at, updated_at, file_path, original_filename, is_docx) VALUES (%(name)s, %(content)s, %(user_id)s, %(created_at)s, %(updated_at)s, %(file_path)s, %(original_filename)s, %(is_docx)s) RETURNING templates.id
+2025-07-02 21:38:41,924 - sqlalchemy.engine.Engine - INFO - [cached since 1.335e+04s ago] {'name': 'lzsh', 'content': 'DOCX模板 - lzsh_template.docx', 'user_id': 5, 'created_at': datetime.datetime(2025, 7, 2, 13, 38, 41, 924510), 'updated_at': datetime.datetime(2025, 7, 2, 13, 38, 41, 924514), 'file_path': '/home/ai_report_system/templates/docx/5050a1c4ac174d8699d1e963ad8ec965_20250702213841.docx', 'original_filename': 'lzsh_template.docx', 'is_docx': True}
+2025-07-02 21:38:41,925 - sqlalchemy.engine.Engine - INFO - COMMIT
+2025-07-02 21:38:41,926 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:41,927 - sqlalchemy.engine.Engine - INFO - SELECT templates.id, templates.name, templates.content, templates.user_id, templates.created_at, templates.updated_at, templates.file_path, templates.original_filename, templates.is_docx 
+FROM templates 
+WHERE templates.id = %(pk_1)s
+2025-07-02 21:38:41,927 - sqlalchemy.engine.Engine - INFO - [cached since 1.335e+04s ago] {'pk_1': 5}
+2025-07-02 21:38:41,927 - backend.app.routers.templates - INFO - 模板记录创建成功: ID=5
+2025-07-02 21:38:41,928 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:42,963 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:42,964 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:42,964 - sqlalchemy.engine.Engine - INFO - [cached since 1.337e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:42,966 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+2025-07-02 21:38:42,978 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+2025-07-02 21:38:42,978 - sqlalchemy.engine.Engine - INFO - SELECT users.id AS users_id, users.username AS users_username, users.email AS users_email, users.hashed_password AS users_hashed_password, users.role AS users_role, users.full_name AS users_full_name, users.school AS users_school, users.college AS users_college, users.major AS users_major, users.class_name AS users_class_name, users.student_id AS users_student_id, users.avatar AS users_avatar, users.is_active AS users_is_active, users.created_at AS users_created_at, users.updated_at AS users_updated_at 
+FROM users 
+WHERE users.username = %(username_1)s 
+ LIMIT %(param_1)s
+2025-07-02 21:38:42,979 - sqlalchemy.engine.Engine - INFO - [cached since 1.337e+04s ago] {'username_1': 'cc666', 'param_1': 1}
+2025-07-02 21:38:42,980 - sqlalchemy.engine.Engine - INFO - SELECT templates.id AS templates_id, templates.name AS templates_name, templates.content AS templates_content, templates.user_id AS templates_user_id, templates.created_at AS templates_created_at, templates.updated_at AS templates_updated_at, templates.file_path AS templates_file_path, templates.original_filename AS templates_original_filename, templates.is_docx AS templates_is_docx 
+FROM templates 
+WHERE templates.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s OFFSET %(param_2)s
+2025-07-02 21:38:42,980 - sqlalchemy.engine.Engine - INFO - [cached since 1.337e+04s ago] {'user_id_1': 5, 'param_1': 100, 'param_2': 0}
+2025-07-02 21:38:42,981 - sqlalchemy.engine.Engine - INFO - ROLLBACK
