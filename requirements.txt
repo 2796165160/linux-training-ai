@@ -1,0 +1,18 @@
+# Backend Dependencies
+fastapi==0.95.0
+uvicorn[standard]==0.21.1
+sqlalchemy==2.0.7
+pydantic==1.10.7
+passlib==1.7.4
+python-jose==3.3.0
+python-multipart==0.0.6
+psycopg2-binary==2.9.5
+alembic==1.10.2
+httpx==0.24.0
+python-docx==0.8.11
+reportlab==3.6.12
+pgvector==0.1.8
+
+# Frontend Dependencies
+streamlit==1.23.1
+pandas==1.5.3
